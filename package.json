@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Bao Duong Gia Portfolio",
-  "main": "src/index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start" : "nodemon src/index.js"
+    "start" : "nodemon api/index.js"
   },
   "repository": {
     "type": "git",
