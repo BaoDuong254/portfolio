@@ -1,10 +1,10 @@
-// window.onload = function () {
-//     const message = sessionStorage.getItem("message");
-//     if (message) {
-//         alert(message);
-//         sessionStorage.removeItem("message"); // Xóa sau khi hiển thị
-//     }
-// };
+window.onload = function () {
+    const message = sessionStorage.getItem("message");
+    if (message) {
+        alert(message);
+        sessionStorage.removeItem("message"); // Xóa sau khi hiển thị
+    }
+};
 // smooth scroll
 $(document).ready(function () {
 	$(".navbar .nav-link").on("click", function (event) {
@@ -50,7 +50,6 @@ document.querySelector(".contact-form").addEventListener("submit", async functio
     const result = await response.json();
     document.getElementById("loading").style.display = "none";
     document.body.style.overflow = "auto"; // mở cuộn trang
-    // sessionStorage.setItem("message", result.message);
-    alert(result.message);
+    sessionStorage.setItem("message", result.message);
     location.reload();
 });
