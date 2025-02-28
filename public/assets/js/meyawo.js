@@ -33,7 +33,7 @@ $("#nav-toggle").click(function () {
 });
 const API_BASE_URL = window.location.hostname.includes("localhost")
     ? "http://localhost:3000"
-    : "https://your-production-api.com";
+    : "https://portfoliobao.vercel.app";
 document.querySelector(".contact-form").addEventListener("submit", async function (e) {
     e.preventDefault();
     document.getElementById("loading").style.display = "flex";
