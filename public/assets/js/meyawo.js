@@ -70,18 +70,22 @@ function detectDeviceByUserAgent() {
 	const userAgent = navigator.userAgent.toLowerCase();
 
 	if (/mobile|android|iphone|ipad|ipod/i.test(userAgent)) {
-        return false;
+		return false;
 	}
-    return true;
+	return true;
 }
 let portfolioCard = document.querySelectorAll(".portfolio-card");
 portfolioCard.forEach((card) => {
     card.addEventListener("click", (e) => {
-        if(!detectDeviceByUserAgent()) {
-            let check = confirm("Do you want to visit the project?");
-            if (!check) {
-                e.preventDefault();
-            }
-        }
-    });
+        e.preventDefault();
+		setTimeout(() => {
+			if (!detectDeviceByUserAgent()) {
+				let check = confirm("Do you want to visit the project?");
+                if (check)
+                {
+                    window.open(card.href, "_blank", "noopener");
+                }
+			}
+		}, 500);
+	});
 });
