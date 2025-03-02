@@ -76,16 +76,15 @@ function detectDeviceByUserAgent() {
 }
 let portfolioCard = document.querySelectorAll(".portfolio-card");
 portfolioCard.forEach((card) => {
-    card.addEventListener("click", (e) => {
-        e.preventDefault();
-		setTimeout(() => {
-			if (!detectDeviceByUserAgent()) {
-				let check = confirm("Do you want to visit the project?");
-                if (check)
-                {
-                    window.open(card.href, "_blank", "noopener");
-                }
-			}
-		}, 500);
+	card.addEventListener("click", (e) => {
+		if (!detectDeviceByUserAgent()) {
+			e.preventDefault();
+			setTimeout(() => {
+				let check = confirm("Do you want to visit this project?");
+				if (check) {
+					window.open(card.href, "_blank", "noopener");
+				}
+			}, 500);
+		}
 	});
 });
