@@ -11153,19 +11153,22 @@ p {
 
 .service-card {
   position: relative;
-  min-height: 200px;
+  min-height: 158px;
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
   margin-bottom: 30px;
+  transition: box-shadow 0.3s ease;
 }
 
 .service-card .body {
   padding: 10px;
 }
-
+.service-card:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
 .service-card .body img.icon{
-  margin-top: 40px;
+  margin-top: 25px;
   width: 55px;
   height: 55px;
   margin-bottom: 25px;
@@ -11211,13 +11214,18 @@ p {
   overflow: hidden;
   height: 300px;
   border-radius: 3px;
-  border: 1px solid #dee2e6;
+  /* border: 1px solid #dee2e6; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Thêm đổ bóng */
+    transition: box-shadow 0.3s ease-in-out; /* Hiệu ứng hover */
 }
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.portfolio-card:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Bóng đậm hơn khi hover */
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -11255,14 +11263,14 @@ p {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-  width: 100%;
+  width: 95%;
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
   opacity: 1;
   visibility: visible;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   border-radius: 0;
 }
 
