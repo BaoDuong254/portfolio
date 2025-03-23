@@ -7,9 +7,8 @@ Welcome to my personal portfolio! This website showcases my background, technolo
 If you would like to get in touch, please fill out the contact form available on the portfolio website. You can also reach me directly via:
 
 - **Email**: duonggiabao254@gmail.com
-  
 - **Linkedin**: https://www.linkedin.com/in/baoduonggia254/
 
 ---
 
-*Note: For more details, please visit [here](https://portfoliobao.vercel.app/).*
+_Note: For more details, please visit [here](https://portfoliobao.vercel.app/)._

@@ -1,518 +1,1176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works.">
-    <meta name="author" content="BaoDuongGia">
-    <title>Bao - Portfolio</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./assets/favicon/site.webmanifest">
-    <!-- Primary Meta Tags -->
-<title>Bao - Portfolio</title>
-<meta name="title" content="Bao - Portfolio" />
-<meta name="description" content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works." />
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta
+            name="description"
+            content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works."
+        />
+        <meta name="author" content="BaoDuongGia" />
+        <title>Bao - Portfolio</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+        <!-- Primary Meta Tags -->
+        <title>Bao - Portfolio</title>
+        <meta name="title" content="Bao - Portfolio" />
+        <meta
+            name="description"
+            content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works."
+        />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://portfoliobao.vercel.app/" />
-<meta property="og:title" content="Bao - Portfolio" />
-<meta property="og:description" content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works." />
-<meta property="og:image" content="https://portfoliobao.vercel.app/assets/imgs/metaOG.png" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://portfoliobao.vercel.app/" />
+        <meta property="og:title" content="Bao - Portfolio" />
+        <meta
+            property="og:description"
+            content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works."
+        />
+        <meta
+            property="og:image"
+            content="https://portfoliobao.vercel.app/assets/imgs/metaOG.png"
+        />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://portfoliobao.vercel.app/" />
-<meta property="twitter:title" content="Bao - Portfolio" />
-<meta property="twitter:description" content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works." />
-<meta property="twitter:image" content="https://portfoliobao.vercel.app/assets/imgs/metaOG.png" />
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://portfoliobao.vercel.app/"
+        />
+        <meta property="twitter:title" content="Bao - Portfolio" />
+        <meta
+            property="twitter:description"
+            content="Hi! I am Bao Gia Duong,  Software Developer. Visit my portfolio to see my works."
+        />
+        <meta
+            property="twitter:image"
+            content="https://portfoliobao.vercel.app/assets/imgs/metaOG.png"
+        />
 
-<!-- Meta Tags Generated with https://metatags.io -->
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KJJ0DSSGWN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <!-- Meta Tags Generated with https://metatags.io -->
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-KJJ0DSSGWN"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-  gtag('config', 'G-KJJ0DSSGWN');
-</script>
-    <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Meyawo main styles -->
-	<link rel="stylesheet" href="./assets/css/meyawo.css">
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+            gtag("config", "G-KJJ0DSSGWN");
+        </script>
+        <!-- font icons -->
+        <link
+            rel="stylesheet"
+            href="assets/vendors/themify-icons/css/themify-icons.css"
+        />
+        <!-- Bootstrap + Meyawo main styles -->
+        <link rel="stylesheet" href="./assets/css/meyawo.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+        <!-- Page Navbar -->
+        <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+            <div class="container">
+                <a class="logo" href="#">Portfolio</a>
+                <ul class="nav">
+                    <li class="item">
+                        <a class="link" href="#home">Home</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#about">About</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#service">Technology</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#portfolio">Project</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a
+                    href="javascript:void(0)"
+                    id="nav-toggle"
+                    class="hamburger hamburger--elastic"
+                >
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <!-- End of Page Navbar -->
 
-    <!-- Page Navbar -->
-    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
-        <div class="container">
-            <a class="logo" href="#">Portfolio</a>         
-            <ul class="nav">
-                <li class="item">
-                    <a class="link" href="#home">Home</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#about">About</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#service">Technology</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#portfolio">Project</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#contact">Contact</a>
-                </li>
-            </ul>
-            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
+        <!-- page header -->
+        <header id="home" class="header">
+            <div class="overlay"></div>
+            <div class="header-content container">
+                <h1 class="header-title">
+                    <span class="up">HI!</span>
+                    <span class="down"
+                        >I am Bao <br />
+                        Gia Duong</span
+                    >
+                </h1>
+                <p class="header-subtitle">SOFTWARE DEVELOPER</p>
+
+                <a href="#about"
+                    ><button class="btn btn-primary">Visit My Works</button></a
+                >
+            </div>
+        </header>
+        <!-- end of page header -->
+
+        <!-- about section -->
+        <section class="section pt-0 pb-0" id="about">
+            <!-- container -->
+            <div class="container text-center">
+                <!-- about wrapper -->
+                <div class="about">
+                    <div class="about-img-holder">
+                        <img
+                            src="assets/imgs/avatar.png"
+                            class="about-img"
+                            alt="avatar"
+                        />
+                    </div>
+                    <div class="about-caption">
+                        <p class="section-subtitle">Who Am I ?</p>
+                        <h2 class="section-title mb-3">About Me</h2>
+                        <p class="about-desc">
+                            I am a second-year Computer Science student at Ho
+                            Chi Minh City University of Technology with a strong
+                            passion for software development. My academic
+                            journey has provided me with a robust technical
+                            foundation and an insatiable curiosity for exploring
+                            innovative technologies. I actively seek
+                            opportunities to enhance my expertise through both
+                            industry projects and academic research that
+                            challenge conventional approaches. With a steadfast
+                            commitment to continuous learning, collaboration,
+                            and innovation, I am dedicated to developing
+                            user-centric software solutions and leveraging
+                            technology to create sustainable, impactful
+                            innovations in the ever-evolving world of tech.
+                        </p>
+                        <a download href="./assets/CV/CV-Bao_Gia_Duong.pdf"
+                            ><button
+                                class="btn-rounded btn btn-outline-primary mt-4"
+                            >
+                                Download CV
+                            </button></a
+                        >
+                    </div>
                 </div>
-            </a>
-        </div>          
-    </nav><!-- End of Page Navbar -->
+                <!-- end of about wrapper -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- end of about section -->
 
-    <!-- page header -->
-    <header id="home" class="header">
-        <div class="overlay"></div>
-        <div class="header-content container">
-            <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am Bao <br> Gia Duong</span>
-            </h1>
-            <p class="header-subtitle">SOFTWARE DEVELOPER</p>            
+        <!-- service section -->
+        <section class="section" id="service">
+            <div class="container text-center">
+                <p class="section-subtitle">What I Do ?</p>
+                <h6 class="section-title mb-6">Technology</h6>
+                <!-- row -->
 
-            <a href="#about"><button class="btn btn-primary">Visit My Works</button></a>
-        </div>              
-    </header><!-- end of page header -->
+                <div class="row">
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/c.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">C</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/cpp.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">C++</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/js.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">JavaScript</h6>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- about section -->
-    <section class="section pt-0 pb-0" id="about">
-        <!-- container -->
-        <div class="container text-center">
-            <!-- about wrapper -->
-            <div class="about">
-                <div class="about-img-holder">
-                    <img src="assets/imgs/avatar.png" class="about-img" alt="avatar">
-                </div>
-                <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
-                    <p class="about-desc">
-                        I am a second-year Computer Science student at Ho Chi Minh City University of Technology with a strong passion for software development. My academic journey has provided me with a robust technical foundation and an insatiable curiosity for exploring innovative technologies. I actively seek opportunities to enhance my expertise through both industry projects and academic research that challenge conventional approaches. With a steadfast commitment to continuous learning, collaboration, and innovation, I am dedicated to developing user-centric software solutions and leveraging technology to create sustainable, impactful innovations in the ever-evolving world of tech.
-                    </p>
-                    <a download href="./assets/CV/CV-Bao_Gia_Duong.pdf"><button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button></a>
-                </div>              
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
-
-    <!-- service section -->
-    <section class="section" id="service">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Technology</h6>
-            <!-- row -->
-
-            <div class="row">
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/c.svg" alt="" class="icon">
-                            <h6 class="title">C</h6>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/html5.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">HTML</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/css3.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">CSS</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/bootstrap.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Bootstrap</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/cpp.svg" alt="" class="icon">
-                            <h6 class="title">C++</h6>
+                <div class="row">
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/pug.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Pug</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/ejs.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">EJS</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/handlebars.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Handlebars</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/sass.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Sass</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/git.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Git</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/github.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Github</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/js.svg" alt="" class="icon">
-                            <h6 class="title">JavaScript</h6>
+                <div class="row">
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/nodejs.svg"
+                                    alt=""
+                                    class="icon nodejs"
+                                />
+                                <h6 class="title">Node.js</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/expressjs.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Express.js</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/mongoDB.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">MongoDB</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/redis.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Redis</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/linux.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Linux</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/bash.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Bash</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-            
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/html5.svg" alt="" class="icon">
-                            <h6 class="title">HTML</h6>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/docker.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Docker</h6>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/css3.svg" alt="" class="icon">
-                            <h6 class="title">CSS</h6>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/nginx.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Nginx</h6>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/bootstrap.svg" alt="" class="icon">
-                            <h6 class="title">Bootstrap</h6>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/ngrok.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Ngrok</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/k8s.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Kubernetes</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-2 col-6">
+                        <div class="service-card">
+                            <div class="body">
+                                <img
+                                    src="assets/imgs/latex.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                                <h6 class="title">Latex</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/pug.svg" alt="" class="icon">
-                            <h6 class="title">Pug</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/ejs.svg" alt="" class="icon">
-                            <h6 class="title">EJS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/handlebars.svg" alt="" class="icon">
-                            <h6 class="title">Handlebars</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/sass.svg" alt="" class="icon">
-                            <h6 class="title">Sass</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/git.svg" alt="" class="icon">
-                            <h6 class="title">Git</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/github.svg" alt="" class="icon">
-                            <h6 class="title">Github</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/nodejs.svg" alt="" class="icon nodejs">
-                            <h6 class="title">Node.js</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/expressjs.svg" alt="" class="icon">
-                            <h6 class="title">Express.js</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/mongoDB.svg" alt="" class="icon">
-                            <h6 class="title">MongoDB</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/redis.svg" alt="" class="icon">
-                            <h6 class="title">Redis</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/linux.svg" alt="" class="icon">
-                            <h6 class="title">Linux</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-2 col-6">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/bash.svg" alt="" class="icon">
-                            <h6 class="title">Bash</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <div class="row justify-content-center">
-            <div class="col-md-4 col-lg-2 col-6">
-                <div class="service-card">
-                    <div class="body">
-                        <img src="assets/imgs/docker.svg" alt="" class="icon">
-                        <h6 class="title">Docker</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-2 col-6">
-                <div class="service-card">
-                    <div class="body">
-                        <img src="assets/imgs/nginx.svg" alt="" class="icon">
-                        <h6 class="title">Nginx</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-2 col-6">
-                <div class="service-card">
-                    <div class="body">
-                        <img src="assets/imgs/ngrok.svg" alt="" class="icon">
-                        <h6 class="title">Ngrok</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-2 col-6">
-                <div class="service-card">
-                    <div class="body">
-                        <img src="assets/imgs/k8s.svg" alt="" class="icon">
-                        <h6 class="title">Kubernetes</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-lg-2 col-6">
-                <div class="service-card">
-                    <div class="body">
-                        <img src="assets/imgs/latex.svg" alt="" class="icon">
-                        <h6 class="title">Latex</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- end of service section -->
+        </section>
+        <!-- end of service section -->
 
-    <!-- portfolio section -->
-    <section class="section" id="portfolio">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Projects</h6>
-            <!-- row -->
-            <div class="row mb-3">
-                <div class="col-md-4">
-                    <a href="https://github.com/BaoDuong254/besnik" class="portfolio-card" target="_blank" rel="noopener">
-                        <img src="assets/imgs/pro1.png" class="portfolio-card-img" alt="pro1">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Besnik</h5>
-                                <p class="font-weight-normal">Project built using pure HTML, CSS, and JavaScript. It integrates Node.js and Express.js</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://github.com/BaoDuong254/Softy-Pinko-FE-2" class="portfolio-card" target="_blank" rel="noopener">
-                        <img class="portfolio-card-img" src="assets/imgs/pro2.png" alt="pro2" class="img-responsive rounded" >
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Softy Pinko</h5>
-                                <p class="font-weight-normal">Create a basic web with HTML, CSS and Bootstrap</p>
-                            </span>                         
-                        </span>                         
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://github.com/BaoDuong254/nodejs-web-framework" class="portfolio-card" target="_blank" rel="noopener">
-                        <img class="portfolio-card-img" src="assets/imgs/pro3.png" alt="pro3" class="img-responsive rounded" >    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>NodeJS web framework</h5>
-                                <p class="font-weight-normal">Building a lightweight Node.js web framework like Express</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-md-4 ">
-                    <a href="https://github.com/BaoDuong254/Bank-sytem" class="portfolio-card" target="_blank" rel="noopener">
-                        <img src="assets/imgs/pro4.png" class="portfolio-card-img" alt="pro4">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Bank system</h5>
-                                <p class="font-weight-normal">Banking management system with C++</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="https://github.com/BaoDuong254/SnakeGameWeb" class="portfolio-card" target="_blank" rel="noopener">
-                        <img class="portfolio-card-img" src="assets/imgs/pro5.png" alt="pro5" class="img-responsive rounded" >
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Snake game</h5>
-                                <p class="font-weight-normal">Create a basic game in web with HTML, CSS and JS
+        <!-- portfolio section -->
+        <section class="section" id="portfolio">
+            <div class="container">
+                <p class="section-subtitle text-center">What I Did ?</p>
+                <h6 class="section-title mb-6 text-center">Projects</h6>
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/besnik"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener">
+                            <img
+                                src="assets/imgs/pro1.png"
+                                class="portfolio-card-img"
+                                alt="pro1"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Besnik</h4>
+                                    <p class="font-weight-normal">
+                                        Project built using pure HTML, CSS, and
+                                        JavaScript. It integrates Node.js and
+                                        Express.js
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro1.png"
+                                alt="https://github.com/BaoDuong254/besnik"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">Besnik</h2>
+                                <p class="project-card__text">
+                                    Project built using pure HTML, CSS, and
+                                    JavaScript. It integrates Node.js and
+                                    Express.js
                                 </p>
-                            </span>                         
-                        </span>                         
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="https://github.com/BaoDuong254/basic-server" class="portfolio-card" target="_blank" rel="noopener">
-                        <img class="portfolio-card-img" src="assets/imgs/pro6.png" alt="pro6" class="img-responsive rounded" >    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Basic server</h5>
-                                <p class="font-weight-normal">Project is a Node.js-based application</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 ">
-                    <a href="https://github.com/BaoDuong254/book-store" class="portfolio-card" target="_blank" rel="noopener">
-                        <img src="assets/imgs/pro7.png" class="portfolio-card-img" alt="pro7">    
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Book store</h5>
-                                <p class="font-weight-normal">Basic CRUD web application built using Node.js, Express.js, and MongoDB</p>
-                            </span>                         
-                        </span>                     
-                    </a>
-                </div>
-                <div class="col-md-4 ">
-                    <a href="https://github.com/BaoDuong254/csv-query-tool" class="portfolio-card" target="_blank" rel="noopener">
-                        <img class="portfolio-card-img img-responsive rounded" src="assets/imgs/pro8.png" alt="pro8"  >
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Simple CSV query tool</h5>
-                                <p class="font-weight-normal">Creating a tool to manipulate CSV data by using a simple SQL-like language
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge"
+                                        >HTML</span
+                                    >
+                                    <span class="project-card__badge">CSS</span>
+                                    <span class="project-card__badge">JS</span>
+                                    <span class="project-card__badge"
+                                        >Node.js</span
+                                    >
+                                    <span class="project-card__badge"
+                                        >Express.js</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://besnik-theta.vercel.app/"
+                                    class="project-card__btn project-card__btn--primary"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
+                                    Live Demo</a
+                                >
+                                <a
+                                    href="https://github.com/BaoDuong254/besnik"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/Softy-Pinko-FE-2"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                class="portfolio-card-img"
+                                src="assets/imgs/pro2.png"
+                                alt="pro2"
+                                class="img-responsive rounded"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Softy Pinko</h4>
+                                    <p class="font-weight-normal">
+                                        Create a basic web with HTML, CSS and
+                                        Bootstrap
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro2.png"
+                                alt="https://github.com/BaoDuong254/Softy-Pinko-FE-2"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">Softy Pinko</h2>
+                                <p class="project-card__text">
+                                    Create a basic web with HTML, CSS and
+                                    Bootstrap
                                 </p>
-                            </span>                         
-                        </span>                         
-                    </a>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge"
+                                        >HTML</span
+                                    >
+                                    <span class="project-card__badge">CSS</span>
+                                    <span class="project-card__badge"
+                                        >Bootstrap</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://baoduong254.github.io/Softy-Pinko-FE-2/"
+                                    class="project-card__btn project-card__btn--primary"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
+                                    Live Demo</a
+                                >
+                                <a
+                                    href="https://github.com/BaoDuong254/Softy-Pinko-FE-2"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/nodejs-web-framework"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                class="portfolio-card-img"
+                                src="assets/imgs/pro3.png"
+                                alt="pro3"
+                                class="img-responsive rounded"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>NodeJS web framework</h4>
+                                    <p class="font-weight-normal">
+                                        Building a lightweight Node.js web
+                                        framework like Express
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro3.png"
+                                alt="https://github.com/BaoDuong254/nodejs-web-framework"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">
+                                    NodeJS web framework
+                                </h2>
+                                <p class="project-card__text">
+                                    Building a lightweight Node.js web framework
+                                    like Express
+                                </p>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge"
+                                        >Node.js</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://nodejs-web-framework.onrender.com/"
+                                    class="project-card__btn project-card__btn--primary"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
+                                    Live Demo</a
+                                >
+                                <a
+                                    href="https://github.com/BaoDuong254/nodejs-web-framework"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="row"> -->
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/Bank-sytem"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                src="assets/imgs/pro4.png"
+                                class="portfolio-card-img"
+                                alt="pro4"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Bank system</h4>
+                                    <p class="font-weight-normal">
+                                        Banking management system with C++
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro4.png"
+                                alt="https://github.com/BaoDuong254/Bank-sytem"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">Bank system</h2>
+                                <p class="project-card__text">
+                                    Banking management system with C++
+                                </p>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge">C++</span>
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://github.com/BaoDuong254/Bank-sytem"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/SnakeGameWeb"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                class="portfolio-card-img"
+                                src="assets/imgs/pro5.png"
+                                alt="pro5"
+                                class="img-responsive rounded"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Snake game</h4>
+                                    <p class="font-weight-normal">
+                                        Create a basic game in web with HTML,
+                                        CSS and JS
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro5.png"
+                                alt="https://github.com/BaoDuong254/SnakeGameWeb"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">Snake game</h2>
+                                <p class="project-card__text">
+                                    Create a basic game in web with HTML, CSS
+                                    and JS
+                                </p>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge"
+                                        >HTML</span
+                                    >
+                                    <span class="project-card__badge">CSS</span>
+                                    <span class="project-card__badge">JS</span>
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://baoduong254.github.io/SnakeGameWeb/"
+                                    class="project-card__btn project-card__btn--primary"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
+                                    Live Demo</a
+                                >
+                                <a
+                                    href="https://github.com/BaoDuong254/SnakeGameWeb"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/basic-server"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                class="portfolio-card-img"
+                                src="assets/imgs/pro6.png"
+                                alt="pro6"
+                                class="img-responsive rounded"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Basic server</h4>
+                                    <p class="font-weight-normal">
+                                        Project is a Node.js-based application
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro6.png"
+                                alt="https://github.com/BaoDuong254/basic-server"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">
+                                    Basic server
+                                </h2>
+                                <p class="project-card__text">
+                                    Project is a Node.js-based application
+                                </p>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge"
+                                        >Node.js</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://github.com/BaoDuong254/basic-server"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="justify-content-center"> -->
+                    <div class="col-md-6 offset-lg-2 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/book-store"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                src="assets/imgs/pro7.png"
+                                class="portfolio-card-img"
+                                alt="pro7"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Book store</h4>
+                                    <p class="font-weight-normal">
+                                        Basic CRUD web application built using
+                                        Node.js, Express.js, and MongoDB
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro7.png"
+                                alt="https://github.com/BaoDuong254/book-store"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">Book store</h2>
+                                <p class="project-card__text">
+                                    Basic CRUD web application built using
+                                    Node.js, Express.js, and MongoDB
+                                </p>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge"
+                                        >Node.js</span
+                                    >
+                                    <span class="project-card__badge"
+                                        >Express.js</span
+                                    >
+                                    <span class="project-card__badge"
+                                        >MongoDB</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://book-store-54dj.onrender.com/"
+                                    class="project-card__btn project-card__btn--primary"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i
+                                        class="fa-solid fa-arrow-up-right-from-square"
+                                    ></i>
+                                    Live Demo</a
+                                >
+                                <a
+                                    href="https://github.com/BaoDuong254/book-store"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <!-- <a
+                            href="https://github.com/BaoDuong254/csv-query-tool"
+                            class="portfolio-card"
+                            target="_blank"
+                            rel="noopener"
+                        >
+                            <img
+                                class="portfolio-card-img img-responsive rounded"
+                                src="assets/imgs/pro8.png"
+                                alt="pro8"
+                            />
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Simple CSV query tool</h4>
+                                    <p class="font-weight-normal">
+                                        Creating a tool to manipulate CSV data
+                                        by using a simple SQL-like language
+                                    </p>
+                                </span>
+                            </span>
+                        </a> -->
+                        <article class="project-card">
+                            <img
+                                src="./assets/imgs/pro8.png"
+                                alt="https://github.com/BaoDuong254/csv-query-tool"
+                                class="project-card__img"
+                            />
+                            <div class="project-card__body">
+                                <h2 class="project-card__title">
+                                    Simple CSV query tool
+                                </h2>
+                                <p class="project-card__text">
+                                    Creating a tool to manipulate CSV data by
+                                    using a simple SQL-like language
+                                </p>
+                                <div class="project-card__badges">
+                                    <span class="project-card__badge">C++</span>
+                                </div>
+                            </div>
+                            <div class="project-card__footer">
+                                <a
+                                    href="https://github.com/BaoDuong254/csv-query-tool"
+                                    class="project-card__btn project-card__btn--outline"
+                                    target="_blank"
+                                    rel="noopener"
+                                    ><i class="fa-brands fa-github"></i>
+                                    GitHub</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="projects__more">
+                    <a
+                        href="https://github.com/BaoDuong254"
+                        class="projects__more-btn"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa-brands fa-github"></i> View More Projects
+                        on GitHub</a
+                    >
+                </div>
+                <!-- end of row -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- end of portfolio section -->
+        <!-- section -->
+        <section class="section-sm bg-primary">
+            <!-- container -->
+            <div class="container text-center text-sm-left">
+                <!-- row -->
+                <div class="row align-items-center">
+                    <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                        <h6 class="title text-light">Want to work with me?</h6>
+                        <p class="m-0 text-light">I'm ready to hear from you</p>
+                    </div>
+                    <div class="col-sm offset-sm-2 offset-md-3">
+                        <a class="link" href="#contact">
+                            <button
+                                class="btn btn-lg my-font btn-light rounded"
+                            >
+                                Let's Chat
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- end of row -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- end of section -->
+        <!-- contact section -->
+        <section class="section" id="contact" style="padding: 100px 10px">
+            <div class="container text-center">
+                <p class="section-subtitle">How can you communicate?</p>
+                <h6 class="section-title mb-5">Contact Me</h6>
+                <!-- contact form -->
+                <form
+                    action="/send-email"
+                    method="post"
+                    class="contact-form col-md-10 col-lg-8 m-auto"
+                >
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input
+                                name="name"
+                                type="text"
+                                size="50"
+                                class="form-control"
+                                placeholder="Your Name"
+                                required
+                            />
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <input
+                                id="emailValue"
+                                name="email"
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter Email"
+                                required
+                            />
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <textarea
+                                name="message"
+                                id="comment"
+                                rows="6"
+                                class="form-control"
+                                placeholder="Write Something"
+                                required
+                            ></textarea>
+                        </div>
+                        <div class="form-group col-sm-12 mt-3">
+                            <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-outline-primary rounded"
+                                id="sendMess"
+                            />
+                        </div>
+                    </div>
+                </form>
+                <!-- end of contact form -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- end of contact section -->
+        <footer class="footer bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="social">
+                            <li>
+                                <a
+                                    href="https://www.facebook.com/bao.duonggia.773/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    class="link"
+                                    ><i class="ti-facebook"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/BaoDuong254"
+                                    target="_blank"
+                                    rel="noopener"
+                                    class="link"
+                                    ><i class="ti-github"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="mailto: duonggiabao254@gmail.com"
+                                    target="_blank"
+                                    rel="noopener"
+                                    class="link"
+                                    ><i class="ti-email"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/baoduonggia254/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    class="link"
+                                    ><i class="ti-linkedin"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="inner-desc">
+                            <span>
+                                &copy; Copyright
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                BaoDuong - All Rights Reserved
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">I'm ready to hear from you</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <a class="link " href="#contact">
-                    <button class="btn btn-lg my-font btn-light rounded">
-                        Let's Chat
-                        </button>
-                    </a>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-    <!-- contact section -->
-    <section class="section" id="contact" style="padding:100px 10px">
-        <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form action="/send-email" method="post" class="contact-form col-md-10 col-lg-8 m-auto">
-                <div class="form-row">
-                    <div class="form-group col-sm-6">
-                        <input name="name" type="text" size="50" class="form-control" placeholder="Your Name" required>                 
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <input id="emailValue" name="email" type="email" class="form-control" placeholder="Enter Email"required>                 
-                    </div>
-                    <div class="form-group col-sm-12">
-                        <textarea name="message" id="comment" rows="6"   class="form-control" placeholder="Write Something" required></textarea>
-                    </div>
-                    <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded" id="sendMess">                  
-                    </div>
-                </div>  
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
-	<footer class="footer bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <ul class="social">
-                        <li>
-                            <a href="https://www.facebook.com/bao.duonggia.773/" target="_blank" rel="noopener" class="link"><i class="ti-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/BaoDuong254" target="_blank" rel="noopener" class="link"><i class="ti-github"></i></a>
+        </footer>
+        <!-- Loading UI -->
+        <!-- From Uiverse.io by SchawnnahJ -->
 
-                        </li>
-                        <li>
-                            <a href="mailto: duonggiabao254@gmail.com" target="_blank" rel="noopener" class="link"><i class="ti-email"></i></a>
-
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/baoduonggia254/" target="_blank" rel="noopener" class="link"><i class="ti-linkedin"></i></a>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="inner-desc">
-                        <span>
-                            &copy; Copyright <script>document.write(new Date().getFullYear())</script> BaoDuong - All Rights
-                            Reserved
-                        </span>
-                    </div>
-                </div>
-            </div>
+        <div id="loading" style="display: none">
+            <div class="spinner"></div>
+            <p style="padding-top: 140px; font-weight: 500; font-size: 20px">
+                Loading, please wait...
+            </p>
         </div>
-    </footer>
-    <!-- Loading UI -->
-    <!-- From Uiverse.io by SchawnnahJ --> 
 
-<div id="loading" style="display: none;">
-    <div class="spinner" ></div>
-    <p style="padding-top: 140px; font-weight: 500; font-size: 20px;">Loading, please wait...</p>
-</div>
+        <!-- core  -->
+        <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+        <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-	<!-- core  -->
-    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+        <!-- bootstrap 3 affix -->
+        <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
-
-    <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
-
-</body>
+        <!-- Meyawo js -->
+        <script src="assets/js/meyawo.js"></script>
+    </body>
 </html>

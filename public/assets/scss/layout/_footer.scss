@@ -10,7 +10,8 @@
         flex-basis: 0;
     }
 
-    a ,p{
+    a,
+    p {
         color: $gray-800;
         padding: 4px 0;
         display: inline-block;
@@ -26,8 +27,8 @@
     .social-links {
         margin-left: auto;
 
-        a {     
-            padding: 0; 
+        a {
+            padding: 0;
             height: 40px;
             width: 40px;
             border-radius: 50%;
@@ -45,7 +46,7 @@
         }
     }
 }
-@include media-breakpoint-down(sm){
+@include media-breakpoint-down(sm) {
     .footer {
         padding: 15px 0;
         flex-direction: column;
@@ -55,4 +56,3 @@
         }
     }
 }
-

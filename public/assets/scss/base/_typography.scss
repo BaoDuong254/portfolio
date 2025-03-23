@@ -3,7 +3,7 @@
     padding-bottom: 20px;
     color: $white;
     @include flex;
-    opacity: .8;
+    opacity: 0.8;
     align-items: flex-end;
 
     * {
@@ -17,19 +17,18 @@
 
         .subtitle {
             font-size: 14px;
-            opacity: .9;
+            opacity: 0.9;
         }
     }
 
-    .title  {
-
+    .title {
         .font-small {
             color: $white;
             font-size: 13px;
         }
     }
 
-    .subtitle  {
+    .subtitle {
         margin: 2px;
 
         i {
@@ -38,7 +37,6 @@
             position: relative;
             top: 2px;
         }
-
     }
 
     .social-links {
@@ -52,7 +50,6 @@
         }
     }
 }
-
 
 /* contact section */
 .list {
@@ -68,16 +65,14 @@
     .list-body {
         padding-top: 6px;
 
-        p  {
+        p {
             margin-bottom: 5px;
 
             i {
                 display: inline-block;
                 width: 20px;
             }
-
         }
-            
 
         a {
             display: block;
@@ -93,8 +88,6 @@
                 padding: 0 8px 0 0;
             }
         }
-
-            
     }
 }
 
@@ -105,30 +98,30 @@ h4,
 h5,
 h6 {
     font-weight: 500;
-    font-family: 'Baloo Paaji', cursive;
+    font-family: "Baloo Paaji", cursive;
     color: $indigo;
 }
 .my-font {
-    font-family: 'Baloo Paaji', cursive;
+    font-family: "Baloo Paaji", cursive;
 }
 p {
     font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
     font-weight: 100;
     opacity: 1;
     color: #111;
-    letter-spacing: .6px;
-} 
+    letter-spacing: 0.6px;
+}
 
 .xs-font {
     font-size: 13px;
-    opacity: .5;
+    opacity: 0.5;
 }
 
 .title {
     font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1300 - 300)));
 
     &.big {
-        font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1300 - 300)));       
+        font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1300 - 300)));
     }
 }
 

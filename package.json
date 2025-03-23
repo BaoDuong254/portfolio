@@ -1,35 +1,37 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Bao Duong Gia Portfolio",
-  "main": "api/index.js",
-  "scripts": {
-    "start" : "node api/index.js",
-    "devStart" : "nodemon api/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BaoDuong254/portfolio.git"
-  },
-  "keywords": [
-    "portfolio",
-    "BaoDuong254"
-  ],
-  "author": "BaoDuong254",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/BaoDuong254/portfolio/issues"
-  },
-  "homepage": "https://github.com/BaoDuong254/portfolio#readme",
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "nodemailer": "^6.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Bao Duong Gia Portfolio",
+    "main": "api/index.js",
+    "scripts": {
+        "start": "node api/index.js",
+        "devStart": "nodemon api/index.js",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BaoDuong254/portfolio.git"
+    },
+    "keywords": [
+        "portfolio",
+        "BaoDuong254"
+    ],
+    "author": "BaoDuong254",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/BaoDuong254/portfolio/issues"
+    },
+    "homepage": "https://github.com/BaoDuong254/portfolio#readme",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "nodemailer": "^6.10.0",
+        "prettier": "^3.5.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
 }
