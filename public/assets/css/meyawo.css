@@ -11703,6 +11703,9 @@ p {
     transition: box-shadow 0.3s ease;
 }
 
+.technology {
+}
+
 .service-card .body {
     padding: 10px;
 }
@@ -12883,6 +12886,28 @@ pre .code {
 
 .section .section-title {
     font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
+}
+.gradient-title {
+    font-size: calc(16px + (28 - 16) * ((100vw - 300px) / (1300 - 300)));
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-title:hover {
+    transform: scale(1.05);
+}
+.gradient-title::before,
+.gradient-title::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: #6c63ff;
+    margin: 0 1rem;
 }
 
 .section .section-subtitle {
