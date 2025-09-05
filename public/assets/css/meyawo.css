@@ -5641,6 +5641,7 @@ input[type="button"].btn-block {
 .project-card {
     background-color: #fff;
     border-radius: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -5648,12 +5649,14 @@ input[type="button"].btn-block {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition:
         transform 0.3s ease,
-        box-shadow 0.3s ease;
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
     padding-bottom: 0.5rem;
 }
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-color: rgba(105, 90, 166, 0.3);
 }
 .project-card__img {
     width: 100%;
